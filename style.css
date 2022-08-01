@@ -95,11 +95,25 @@ margin-bottom: 5rem;
 Main Body
 ===============
 */
+.intro {
+     align-items: flex-start;
+     text-align: left;
+     margin-left: 5rem;
+     margin-top: 5rem;
+     margin-bottom: 3rem;
+}
+
+.underline {
+     margin-bottom: 2px;
+     border-bottom: 0.3rem solid black;
+     width: fit-content;
+}
 .main-body{
      display: flex;
      align-items: center;
      justify-content: space-between;
      margin:0 3rem;
+     height: 100vh;
 }
 
 .main-information{
