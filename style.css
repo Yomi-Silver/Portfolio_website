@@ -140,7 +140,7 @@ main {
      color: var(--clr-primary-8);
      border: none;
      font-weight: bold;
-     box-shadow: 2px 1px 4px 2px var(--clr-grey-1);
+    box-shadow: 2px 1px 4px var(--clr-grey-1);
 }
 
 #contactMe:hover {
@@ -158,7 +158,7 @@ main {
      font-weight: bold;
      background-color: var(--clr-grey-9);
      color: var(--clr-grey-1);
-     box-shadow: 2px 1px 4px 2px var(--clr-grey-1);
+    box-shadow: 2px 1px 4px var(--clr-grey-1);
 
 }
 
