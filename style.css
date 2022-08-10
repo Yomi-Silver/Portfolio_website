@@ -299,6 +299,7 @@ p {
   margin: 0 auto;
   max-width: 1170px;
 }
+
 @media screen and (min-width: 992px) {
   .section-center {
     width: 95vw;
@@ -393,6 +394,7 @@ About
   display: block;
 }
 
+@media screen and (min-width: 992px) {}
 
 /*
 =============== 
@@ -413,7 +415,11 @@ Contact Styles
      flex: 1;
      margin: auto;
 
+}
 
+.contact-words,
+h3 {
+  width: 70%;
 }
 
 .contact-form{
@@ -456,3 +462,4 @@ textarea{
      cursor: pointer;
      border: outset;
 }
+@media screen and (min-width: 992px) {}
