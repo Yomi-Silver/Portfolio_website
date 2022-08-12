@@ -13,16 +13,21 @@
      <section>
 
       <div class="title">
-          <header class="header">
+          <header class="header" id="home">
                <nav class="nav-bar">
-                    <div class="nav-logo">OceanDev</div>
+                    <div class="nav-logo nav-branding"> <a href="#" class="nav-branding">OceanDev</a></div>
                     <div class="nav-links">
-                         <ul class="header-link" >
-                              <li><a href="">Home</a></li>
-                              <li><a href="">About</a></li>
-                              <li><a href="">projects</a></li>
-                              <li><a href="">Contact</a></li>
+                         <ul class="header-link nav-menu">
+                              <li><a href="#home" class="nav-link">Home</a></li>
+                              <li><a href="#" class="nav-link">About</a></li>
+                              <li><a href="#" class="nav-link">projects</a></li>
+                              <li><a href="#" class="nav-link">Contact</a></li>
                          </ul>
+                         <div class="hamburger">
+                              <span class="bar"></span>
+                              <span class="bar"></span>
+                              <span class="bar"></span>
+                         </div>
                     </div>
                </nav>
           </header>
@@ -36,7 +41,8 @@
                                         <h2 class="underline"> Fasan Michael</h2>
                                    </span></h3>
                          </div>
-                         <p> I am a self-taught software engineer from Nigeria who is focused on <span>FrontEnd Development</span> . I have a
+                         <p class="intro-text"> I am a self-taught software engineer from Nigeria who is focused on <span>FrontEnd
+                                   Development</span> . I have a
                               strong passion for building user-friendly and responsive web sites/ webApps. I also make a website very interactive
                               with web animations. A responsive design makes your your website friendly with users irrespective of their
                               device(s).</p>
@@ -133,7 +139,7 @@
 
 
 
-          <h1>About me</h1>   
+          <h1 id="about">About me</h1>
           <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium molestias dolorum vero a at explicabo officiis est consequuntur corporis saepe.</p> 
       </div>
       <div class="about-center column-center"> 
@@ -167,10 +173,54 @@
                     <!-- end of single item -->
                </article>
           </article>
-          
-      </div>
+     </div>
      </section>
+     
      <section>
+     
+          <div class="projects">
+               <h1>Projects</h1>
+     
+               <div class="project-cards">
+                    <div class="card-wrapper">
+                         <div class="project-card">
+                              <img src="/images/weatherApp.png" alt="">
+                         </div>
+                         <div class="card-desc">
+                              <a href="#"><p>Javascript Weather App with OpenWeather API</p></a>
+                         </div>
+                    </div>
+                    <div class="card-wrapper">
+                         <div class="project-card">
+                              <img src="/images/RealEstate.png" alt="">
+                         </div>
+                         <div class="card-desc">
+                              <a href="#"> <p>Real Estate Landing page</p> </a>
+                         </div>
+                    </div>
+                    <div class="card-wrapper">
+                         <div class="project-card">
+                              <img src="/images/signupPage.png" alt="">
+                         </div>
+                         <div class="card-desc">
+                              <a href="#"><p>Javascript signup page</p></a>
+                         </div>
+                    </div>
+                    <div class="card-wrapper">
+                         <div class="project-card">
+                              <img src="/images/Image-Editor.png" alt="">
+                         </div>
+                         <div class="card-desc">
+                              <a href="#"><p>Image editor app</p></a>
+                         </div>
+                    </div>
+               </div>
+</div>
+
+</section>
+
+<section>
+
           <div class="contact">
                <div class="contact-words">
                     <h3>I would really love to read from you...</h3>
