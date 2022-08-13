@@ -76,6 +76,8 @@ margin-bottom: 5rem;
 }
 
 .nav-logo {
+  background-color: var(--clr-grey-5);
+  border-radius: 50%;
   font-size: 1.5rem;
   font-weight: bolder;
   font-style: italic;
@@ -244,12 +246,17 @@ main {
 .projects{
   height: 50vh;
   margin: 2rem 4rem;
-  margin-top: 8rem;
+  margin-top: 10rem;
+  margin-bottom: 10em;
 
 }
 
-.projects h1{
-  text-align: center;
+.projects h2{
+  text-align: start;
+text-decoration: overline;
+margin-top: 10rem;
+margin-bottom: 6rem;
+margin-left: 4rem;
 }
 
 
@@ -461,7 +468,7 @@ p {
 @media screen and (min-width: 992px) {
   .section-center {
     width: 95vw;
-    background-color: #0000;
+    /* background-color: #0000; */
   }
 }
 
@@ -505,6 +512,13 @@ About
      margin: 0 2rem;
   }
 }
+
+
+#about{
+  margin-top: 10rem;
+}
+
+
 .about {
   background: var(--clr-white);
   border-radius: var(--radius);
